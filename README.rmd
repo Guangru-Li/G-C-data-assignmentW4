@@ -24,6 +24,7 @@ The output data
 
 
 ##The RAW files are downloaded and unziped in the working directory beforehand 
+##And loaded into workspace with the following code
 
 ```{r}
 X_test<-read.table("./UCI HAR Dataset/test/X_test.txt")
