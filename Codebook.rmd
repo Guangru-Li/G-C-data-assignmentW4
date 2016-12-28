@@ -3,7 +3,9 @@ title: "CodeBook for Getting&Cleaning Data Final Project"
 output: html_document
 ---
 Human Activity Recognition Using Smartphones Dataset
-Version 2.0, modified by Guangru Li
+Version 2.0, 
+
+modified by Guangru Li
 
 THis code book describe the data appended to the original. 
 To get informatio about original data, please refer the the data source
