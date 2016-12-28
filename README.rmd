@@ -12,6 +12,16 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+##**Files Information**
+###run_analysis.R
+Contain the code to process the data
+###Readme.rmd
+Explain the function of this repository
+###Codebook.rmd
+Explain the data that appended by this processing
+###TidyData.txt
+The output data
+
 
 ##The files are downloaded and unziped in the working directory beforehand 
 
