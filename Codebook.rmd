@@ -7,7 +7,7 @@ Version 2.0,
 
 Modified by Guangru Li
 
-This code book describe the data appended to the original. 
+This code book describes the data appended to the original. 
 To get informatio about original data, please refer the the data source
 
 ##**Data Source:**
