@@ -23,7 +23,7 @@ Explain the data that appended by this processing
 The output data
 
 
-##The files are downloaded and unziped in the working directory beforehand 
+##The RAW files are downloaded and unziped in the working directory beforehand 
 
 ```{r}
 X_test<-read.table("./UCI HAR Dataset/test/X_test.txt")
