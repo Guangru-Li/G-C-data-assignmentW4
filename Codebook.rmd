@@ -1,0 +1,102 @@
+---
+title: "CodeBook for Getting&Cleaning Data Final Project"
+output: html_document
+---
+Human Activity Recognition Using Smartphones Dataset
+Version 2.0, modified by Guangru Li
+
+THis code book describe the data appended to the original. 
+To get informatio about original data, please refer the the data source
+
+##**Data Source:**
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+##**Data Saving place:**
+
+./UCI HAR Dataset
+
+
+##**The code to process the data**
+
+####Run_analysis.R
+
+This processing extracts the quantities under the name with "mean" or "std", 
+and average them for each participant and each activity. 
+The finally data is presented in a clean way fitted with the requirement of the course
+
+##**Output datafile**
+
+####**TidyData.txt**
+
+
+Descriptive Names | Units
+------------- | -------------
+subject | participant 1-participant 30
+activity | WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING 
+timeBodyAccelerometer-mean()-X | 'g'
+timeBodyAccelerometer-mean()-Y | 'g'
+timeBodyAccelerometer-mean()-Z | 'g'
+timeBodyAccelerometer-std()-X | 'g'
+timeBodyAccelerometer-std()-Y | 'g'
+timeBodyAccelerometer-std()-Z | 'g'
+timeGravityAccelerometer-mean()-X | 'g'
+timeGravityAccelerometer-mean()-Y | 'g'
+timeGravityAccelerometer-mean()-Z | 'g'
+timeGravityAccelerometer-std()-X | 'g'
+timeGravityAccelerometer-std()-Y | 'g'
+timeGravityAccelerometer-std()-Z | 'g'
+timeBodyAccelerometerJerk-mean()-X | 'g'/second
+timeBodyAccelerometerJerk-mean()-Y | 'g'/second
+timeBodyAccelerometerJerk-mean()-Z | 'g'/second
+timeBodyAccelerometerJerk-std()-X | 'g'/second
+timeBodyAccelerometerJerk-std()-Y | 'g'/second
+timeBodyAccelerometerJerk-std()-Z | 'g'/second
+timeBodyGyroscope-mean()-X |  radians/second
+timeBodyGyroscope-mean()-Y |  radians/second
+timeBodyGyroscope-mean()-Z | radians/second
+timeBodyGyroscope-std()-X | radians/second
+timeBodyGyroscope-std()-Y | radians/second
+timeBodyGyroscope-std()-Z | radians/second
+timeBodyGyroscopeJerk-mean()-X | radians/(second)^2
+timeBodyGyroscopeJerk-mean()-Y | radians/(second)^2
+timeBodyGyroscopeJerk-mean()-Z | radians/(second)^2
+timeBodyGyroscopeJerk-std()-X | radians/(second)^2
+timeBodyGyroscopeJerk-std()-Y | radians/(second)^2
+timeBodyGyroscopeJerk-std()-Z | radians/(second)^2
+timeBodyAccelerometerMagnitude-mean() |  'g'
+timeBodyAccelerometerMagnitude-std() |   'g'
+timeGravityAccelerometerMagnitude-mean() | 'g'
+timeGravityAccelerometerMagnitude-std() | 'g'
+timeBodyAccelerometerJerkMagnitude-mean() | 'g'/second
+timeBodyAccelerometerJerkMagnitude-std() | 'g'/second
+timeBodyGyroscopeMagnitude-mean() | radians/second
+timeBodyGyroscopeMagnitude-std() | radians/second
+timeBodyGyroscopeJerkMagnitude-mean() | radians/(second)^2
+timeBodyGyroscopeJerkMagnitude-std() | radians/(second)^2
+frequencyBodyAccelerometer-mean()-X | ('g')^-1
+frequencyBodyAccelerometer-mean()-Y | ('g')^-1
+frequencyBodyAccelerometer-mean()-Z | ('g')^-1
+frequencyBodyAccelerometer-std()-X | ('g')^-1
+frequencyBodyAccelerometer-std()-Y | ('g')^-1
+frequencyBodyAccelerometer-std()-Z | ('g')^-1
+frequencyBodyAccelerometerJerk-mean()-X | ('g'/second)^-1
+frequencyBodyAccelerometerJerk-mean()-Y | ('g'/second)^-1
+frequencyBodyAccelerometerJerk-mean()-Z | ('g'/second)^-1
+frequencyBodyAccelerometerJerk-std()-X | ('g'/second)^-1
+frequencyBodyAccelerometerJerk-std()-Y | ('g'/second)^-1
+frequencyBodyAccelerometerJerk-std()-Z | ('g'/second)^-1
+frequencyBodyGyroscope-mean()-X | (radians/second)^-1
+frequencyBodyGyroscope-mean()-Y | (radians/second)^-1
+frequencyBodyGyroscope-mean()-Z | (radians/second)^-1
+frequencyBodyGyroscope-std()-X | (radians/second)^-1
+frequencyBodyGyroscope-std()-Y | (radians/second)^-1
+frequencyBodyGyroscope-std()-Z | (radians/second)^-1
+frequencyBodyAccelerometerMagnitude-mean() | (radians/second)^-1
+frequencyBodyAccelerometerMagnitude-std() | (radians/second)^-1
+frequencyBodyAccelerometerJerkMagnitude-mean() | second^2/radians
+frequencyBodyAccelerometerJerkMagnitude-std() | second^2/radians
+frequencyBodyGyroscopeMagnitude-mean() | second^2/radians
+frequencyBodyGyroscopeMagnitude-std() | second^2/radians
+frequencyBodyGyroscopeJerkMagnitude-mean() | second^2/radians
+frequencyBodyGyroscopeJerkMagnitude-std() | second^2/radians
