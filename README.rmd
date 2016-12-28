@@ -65,10 +65,10 @@ head(Extract$activity, 5)
 #rename the columns by patterning matching
 names(Extract)<-gsub("^t","time",names(Extract))
 names(Extract)<-gsub("^f","frequency",names(Extract))
-names(Extract)<-gsub("^Acc","Accelerometer",names(Extract))
-names(Extract)<-gsub("^Gyro","Gyroscope",names(Extract))
-names(Extract)<-gsub("^Mag","Magnitude",names(Extract))
-names(Extract)<-gsub("^BodyBody","Body",names(Extract))
+names(Extract)<-gsub("Acc","Accelerometer",names(Extract))
+names(Extract)<-gsub("Gyro","Gyroscope",names(Extract))
+names(Extract)<-gsub("Mag","Magnitude",names(Extract))
+names(Extract)<-gsub("BodyBody","Body",names(Extract))
 Extract$subject<-paste("Participate", as.character(Extract$subject))
 ```
 Check the results of the names
