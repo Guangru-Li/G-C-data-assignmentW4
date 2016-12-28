@@ -34,6 +34,7 @@ names(Extract)<-gsub("Acc","Accelerometer",names(Extract))
 names(Extract)<-gsub("Gyro","Gyroscope",names(Extract))
 names(Extract)<-gsub("Mag","Magnitude",names(Extract))
 names(Extract)<-gsub("BodyBody","Body",names(Extract))
+names(Extract)<- gsub('[()]', '', names(Extract))
 Extract$subject<-paste("Participate", as.character(Extract$subject))
 
 ##Task 5 From the data set in setp 4, create a second, independent tidy data set with the average of each variable for each activity and each subject 
