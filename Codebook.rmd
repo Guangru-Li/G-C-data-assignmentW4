@@ -5,9 +5,9 @@ output: html_document
 Human Activity Recognition Using Smartphones Dataset
 Version 2.0, 
 
-modified by Guangru Li
+Modified by Guangru Li
 
-THis code book describe the data appended to the original. 
+This code book describe the data appended to the original. 
 To get informatio about original data, please refer the the data source
 
 ##**Data Source:**
