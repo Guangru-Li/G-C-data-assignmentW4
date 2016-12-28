@@ -84,7 +84,7 @@ TidyData<-arrange(TidyData, as.integer(substring(subject,nchar("participate ")))
 write.table(TidyData,file="tidydata.txt",row.names=FALSE)
 
 ```
-Check the results of the names
+Check the results of the TidyData
 ```{r,results="asis"}
 dim(TidyData)
 ```
