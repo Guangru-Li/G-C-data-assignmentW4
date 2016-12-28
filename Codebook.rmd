@@ -25,7 +25,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This processing extracts the quantities under the name with "mean" or "std", 
 and average them for each participant and each activity. 
-The finally data is presented in a clean way fitted with the requirement of the course
+The final data is presented in a clean way complying with the requirement of the course
 
 ##**Output datafile**
 
